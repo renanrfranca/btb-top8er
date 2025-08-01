@@ -184,7 +184,7 @@ def event_data(slug) :
     data = data["data"]
     try :
         if data["event"] is None : return None
-        char_data = json.loads(requests.get(url="https://api.smash.gg/characters").content)
+        char_data = json.loads(requests.get(url="https://api.start.gg/characters").content)
         for node in data["event"]["sets"]['nodes'] :
             if node["games"] is None : continue
             for game in node["games"] :
@@ -247,14 +247,14 @@ def event_data(slug) :
     btext = []
     if event["startAt"] :
         fecha = datetime.fromtimestamp(event["startAt"])
-        fecha = fecha.strftime("%y/%m/%d")
+        fecha = fecha.strftime("%d/%m/%y")
         btext.append(fecha)
     if event["tournament"]["city"] :
         ciudad = event["tournament"]["city"]
         btext.append(ciudad)
-    btext.append(str(event["numEntrants"])+" Participants")
+    btext.append(str(event["numEntrants"])+" Participantes")
     btext = " - ".join(btext)
-    ttexts = [event["tournament"]["name"], " - " + event["name"], " - Top 8"]
+    ttexts = [event["name"]]
     ttext = ""
 
     
