@@ -85,7 +85,7 @@ MIDDLEWARE = [
 ROOT_URLCONF = 'Top8er.urls'
 
 # Vite
-FRONTEND_DIR = os.path.join(BASE_DIR, "frontend", "dist")
+FRONTEND_DIR = os.path.join(BASE_DIR, "static")
 
 TEMPLATES = [
     {
@@ -161,6 +161,8 @@ CACHES = {
 
 STATIC_URL = 'static/'
 
+STATIC_ROOT = os.path.join(BASE_DIR, 'static')
+
 if DEBUG:
     STATICFILES_DIRS = [
         os.path.join(BASE_DIR, 'static'),
@@ -183,7 +185,7 @@ CHALLONGE_API_KEY = os.getenv('CHALLONGE_API_KEY')
 TONAMEL_API_KEY = os.getenv('TONAMEL_API_KEY')
 
 # Load data from stuff.json
-with open(os.path.join(BASE_DIR, 'stuff.json'), 'r') as f:
+with open(os.path.join(BASE_DIR, 'stuff.json'), mode='r', encoding='utf-8') as f:
     stuff_data = json.load(f)
 
 # Assign data to variables
