@@ -1,9 +1,8 @@
 top8er_app/__pychache__/*
 top8er_app/migrations/*
 top8er_app/generar/__pycache__/*
-top8er_app/generar/assets/
 top8er_app/generar/templates/
-top8er_app/generar/*.png
+top8er_app/generar/assets/*/portraits/*/*.png
 *.pyc
 *.apikey
 *.DS_Store

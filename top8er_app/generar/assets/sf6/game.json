@@ -1,0 +1,40 @@
+{
+    "name": "Street Fighter 6",
+    "characters": [
+        "AKI",
+        "Akuma",
+        "Blanka",
+        "Cammy",
+        "Chunli",
+        "Deejay",
+        "Dhalsim",
+        "Ed",
+        "E Honda",
+        "Elena",
+        "Guile",
+        "Jamie",
+        "JP",
+        "Juri",
+        "Ken",
+        "Kimberly",
+        "Lily",
+        "Luke",
+        "M Bison",
+        "Mai",
+        "Manon",
+        "Marisa",
+        "Rashid",
+        "Ryu",
+        "Terry",
+        "Zangief"
+    ],
+    "hasIcons": false,
+    "colors": null,
+    "iconColors": null,
+    "blackSquares": true,
+    "defaultLayoutColors": [
+        "#fb5549",
+        "#fffbd5"
+    ],
+    "colorGuide": null
+}

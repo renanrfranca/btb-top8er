@@ -1,0 +1,41 @@
+{
+    "name": "Under Night In-Birth II [Sys:Celes]",
+    "characters": [
+        "Akatsuki",
+        "Byakuya",
+        "Carmine",
+        "Chaos",
+        "Eltnum",
+        "Enkidu",
+        "Gordeau",
+        "Hilda",
+        "Hyde",
+        "Izumi",
+        "Kaguya",
+        "Kuon",
+        "Linne",
+        "Londrekia",
+        "Merkava",
+        "Mika",
+        "Nanase",
+        "Ogre",
+        "Orie",
+        "Phonon",
+        "Seth",
+        "Tsurugi",
+        "Uzuki",
+        "Vatista",
+        "Waldstein",
+        "Wagner",
+        "Yuzuriha"
+    ],
+    "hasIcons": false,
+    "colors": null,
+    "iconColors": null,
+    "blackSquares": true,
+    "defaultLayoutColors": [
+        "#fb5549",
+        "#fffbd5"
+    ],
+    "colorGuide": null
+}

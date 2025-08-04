@@ -4,7 +4,8 @@
         "Traditional Fighter": [
             ["", "ggst"],
             ["sf6", "sf6"],
-            ["ffcotw", "ffcotw"]
+            ["ffcotw", "ffcotw"],
+            ["uni2", "uni2"]
         ]
     },
     "categories_order": ["Traditional Fighter"],

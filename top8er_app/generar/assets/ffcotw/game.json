@@ -1,0 +1,33 @@
+{
+    "name": "Fatal Fury: City of the Wolves",
+    "characters": [
+        "andy",
+        "b. jenet",
+        "billy",
+        "cristiano",
+        "gato",
+        "hokutomaru",
+        "hotaru",
+        "kain",
+        "ken",
+        "kevin",
+        "kim",
+        "mai",
+        "marco",
+        "preecha",
+        "rock",
+        "salvatore",
+        "terry",
+        "tizoc",
+        "vox"
+    ],
+    "hasIcons": false,
+    "colors": null,
+    "iconColors": null,
+    "blackSquares": true,
+    "defaultLayoutColors": [
+        "#fb5549",
+        "#fffbd5"
+    ],
+    "colorGuide": null
+}
