@@ -303,7 +303,7 @@ def response_from_json(request, game_path):
                          echars=None if iconColors is None else list(iconColors.keys()),
                          numerito=game_data["maxColors"], 
                          numerito_extra=game_data["maxIconColors"],
-                         hasextra=game_data["hasIcons"],
+                         hasextra=True,
                          color1=game_data["defaultLayoutColors"][0],
                          color2=game_data["defaultLayoutColors"][1],
                          default_black_squares=game_data.get("blackSquares", True),
@@ -315,7 +315,7 @@ def response_from_json(request, game_path):
         color_dict = game_data["colors"]
     color_dict = json.dumps({game_path: color_dict})[1:-1]
     return hestia(request, game_path, FormClass,
-                  hasextra=game_data["hasIcons"], color_guide=game_data.get("colorGuide"),
+                  hasextra=True, color_guide=game_data.get("colorGuide"),
                   color_dict=color_dict)
 
 def is_url(string):
